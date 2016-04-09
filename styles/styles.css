@@ -19,8 +19,8 @@ html{
 	margin: 0 auto;
 } */
 
-			.header{
-				height: 230px;
+			.principal{
+				height: 430px;
 				background-color: transparent;
 				display: flex;
 				justify-content: space-around;
@@ -29,28 +29,52 @@ html{
 				background-position: center;
 				background-repeat: no-repeat;
 				border-bottom: 2px solid #D0BEBE;
+				margin-top: 62px;
 			}
 
-				.header-img{
+				.principal-img{
 					width: 160px;
 					height: 160px;
 					border-radius: 50%;
 				}
 
-					.header-img img{
+					.principal-img img{
 						width: 160px;
 						height: 160px;
 						border-radius: 50%;
 					}
 
-					.header-title{
+					.principal-title{
 						color: white;
 						text-align: center;
+						font-family: 'Lato', sans-serif;
+
 					}
 
-					.header-title h1{
-						font-size: 2.5rem;
+					.principal-title h1{
+						font-weight: 800;
+						margin: 0;
+						padding: 0;
 					}
+
+						.principal-title-1{
+							font-size: 2.5em;
+						}
+
+						.principal-title-2{
+							font-size: 1.55em;
+						}
+
+					.principal-title-social a{
+						margin: 0.2em 0.3em;
+						font-size: 1.8em;
+						color: #FFF;
+						text-decoration: none;
+					}
+					.principal-title-social a:hover{
+						color: black;
+					}
+
 
 		.aboutme{
 			
