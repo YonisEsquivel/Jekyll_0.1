@@ -5,7 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background-color: #4E3650;
+    background-color: #3E2F40;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -114,6 +114,7 @@ a.site-title.test {
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: #3E2F40;
 }
 
 .footer-heading {
@@ -127,11 +128,24 @@ a.site-title.test {
     margin-left: 0;
 }
 
+.namesite{
+    color: white;
+    font-size: 1.05em;
+}
+
+.icon-social a{
+    color: white;
+    font-size: 1.05em;
+}
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .footer-col {
@@ -176,6 +190,11 @@ a.site-title.test {
     }
 }
 
+@include media-query(480px) {
+    .footer-col-wrapper{
+    display: block;
+    }
+}
 
 
 /**

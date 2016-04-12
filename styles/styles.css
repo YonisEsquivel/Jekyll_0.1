@@ -75,6 +75,38 @@ html{
 						color: black;
 					}
 
+					@media (max-width: 480px) {
+						.principal{
+							text-align: center;
+							display: block;
+						}
+
+							.principal-img{
+								width: auto;
+								height: auto;
+								text-align: center;
+							}
+
+								.principal-img img{
+								}
+
+								.principal-title{
+								}
+
+								.principal-title h1{
+
+								}
+
+									.principal-title-1{
+									}
+
+									.principal-title-2{
+									}
+
+								.principal-title-social a{
+								}
+					}
+
 
 		.aboutme{
 			
@@ -102,7 +134,13 @@ html{
 				}
 
 				.aboutme-profile-text div{
-					width: 95%;
+					width: 70%;
+    				font-size: 1.25em;
+				}
+
+				.aboutme-profile-text div p a{
+					color: #2AE23A;
+
 				}
 
 				.aboutme-profile-img{
@@ -112,6 +150,69 @@ html{
 					background-position: center;
 					background-repeat: no-repeat;
 					filter: opacity(0.5);
+				}
+
+                /* ---------------Media Querys----------------- */
+				@media (max-width: 900px){
+					.aboutme-profile{
+					}
+
+						.aboutme-profile-text{
+							width: 50%;
+							height: 400px;
+						}
+
+						.aboutme-profile-text div{
+							font-size: 1em;
+							width: 90%;
+						}
+
+						.aboutme-profile-text div p a{
+						}
+
+						.aboutme-profile-img{
+							width: 50%;
+							height: 400px;
+						}
+				}
+
+				@media (max-width: 650px){
+					.aboutme-profile{
+					}
+
+						.aboutme-profile-text{
+							width: 40%;
+						}
+
+						.aboutme-profile-text div{
+						}
+
+						.aboutme-profile-text div p a{
+						}
+
+						.aboutme-profile-img{
+							width: 60%;
+						}
+				}
+
+				@media (max-width: 480px){
+					.aboutme-profile{
+					}
+
+						.aboutme-profile-text{
+							width: 100%;
+							height: 300px;
+						}
+
+						.aboutme-profile-text div{
+						}
+
+						.aboutme-profile-text div p a{
+						}
+
+						.aboutme-profile-img{
+							display: none;
+						}
 				}
 
 		.aboutme-studies{
@@ -144,5 +245,109 @@ html{
 					align-items: center;
 					justify-content: center;
 					color: white;
+					font-size: 1.25em;
+					text-align: center;
+				}
+
+				.aboutme-studies-slider-text div p{
+					margin: 0;
+					padding: 0;
+				}
+
+				.aboutme-studies-slider-text div p a{
+					color: #2AE23A;
+				}
+
+
+				@media (max-width: 900px){
+
+					.aboutme-studies{
+						height: 400px;
+					}
+
+						.aboutme-studies-slider{
+							height: 400px;
+						}
+
+							.aboutme-studies-slider-img{
+								height: 400px;
+								width: 50%;
+							}
+
+								.aboutme-studies-slider-img img{
+								}
+
+							.aboutme-studies-slider-text{
+								height: 400px;
+								width: 50%;
+							}
+
+							.aboutme-studies-slider-text div p{
+							}
+
+							.aboutme-studies-slider-text div p a{
+							}					
+				}
+
+
+				@media (max-width: 650px){
+
+					.aboutme-studies{
+						height: 400px;
+					}
+
+						.aboutme-studies-slider{
+							height: 400px;
+						}
+
+							.aboutme-studies-slider-img{
+								height: 400px;
+								width: 60%;
+							}
+
+								.aboutme-studies-slider-img img{
+								}
+
+							.aboutme-studies-slider-text{
+								height: 400px;
+								width: 40%;
+							}
+
+							.aboutme-studies-slider-text div p{
+							}
+
+							.aboutme-studies-slider-text div p a{
+							}					
+				}
+
+
+				@media (max-width: 480px){
+
+					.aboutme-studies{
+						height: 200px;
+					}
+
+						.aboutme-studies-slider{
+							height: 200px;
+						}
+
+							.aboutme-studies-slider-img{
+								height: 200px;
+								width: 50%;
+							}
+
+								.aboutme-studies-slider-img img{
+								}
+
+							.aboutme-studies-slider-text{
+								height: 200px;
+								width: 50%;
+							}
+
+							.aboutme-studies-slider-text div p{
+							}
+
+							.aboutme-studies-slider-text div p a{
+							}					
 				}
 
