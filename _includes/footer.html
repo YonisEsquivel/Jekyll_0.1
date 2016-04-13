@@ -6,20 +6,20 @@
       <div class="footer-col footer-col-3">
         <ul class="contact-list">
           <li class="namesite">{{ site.title }}</li>
-          <li class="icon-social"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li class="icon-social"><a href="mailto:{{ site.email }}" title="Email">{{ site.email }}</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
         <ul class="social-media-list">
           {% if site.github_username %}
-          <li class="icon-social">
+          <li class="icon-social" title="GitHub">
             {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
-          <li class="icon-social">
+          <li class="icon-social" title="Twitter">
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
