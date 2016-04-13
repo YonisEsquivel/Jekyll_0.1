@@ -117,8 +117,8 @@ html{
 
 					@media (max-width: 480px) {
 						.principal{
-							text-align: center;
-							display: block;
+							display: flex;
+							flex-direction: column-reverse;
 						}
 
 							.principal-img{
