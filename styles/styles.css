@@ -127,24 +127,7 @@ html{
 								text-align: center;
 							}
 
-								.principal-img img{
-								}
-
-								.principal-title{
-								}
-
-								.principal-title h1{
-
-								}
-
-									.principal-title-1{
-									}
-
-									.principal-title-2{
-									}
-
-								.principal-title-social a{
-								}
+								
 					}
 
 
@@ -207,9 +190,6 @@ html{
 							width: 90%;
 						}
 
-						.aboutme-profile-text div p a{
-						}
-
 						.aboutme-profile-img{
 							width: 50%;
 							height: 400px;
@@ -222,12 +202,6 @@ html{
 
 						.aboutme-profile-text{
 							width: 40%;
-						}
-
-						.aboutme-profile-text div{
-						}
-
-						.aboutme-profile-text div p a{
 						}
 
 						.aboutme-profile-img{
@@ -244,11 +218,6 @@ html{
 							height: 300px;
 						}
 
-						.aboutme-profile-text div{
-						}
-
-						.aboutme-profile-text div p a{
-						}
 
 						.aboutme-profile-img{
 							display: none;
@@ -314,19 +283,10 @@ html{
 								width: 50%;
 							}
 
-								.aboutme-studies-slider-img img{
-								}
-
 							.aboutme-studies-slider-text{
 								height: 400px;
 								width: 50%;
-							}
-
-							.aboutme-studies-slider-text div p{
-							}
-
-							.aboutme-studies-slider-text div p a{
-							}					
+							}				
 				}
 
 
@@ -345,19 +305,11 @@ html{
 								width: 60%;
 							}
 
-								.aboutme-studies-slider-img img{
-								}
-
 							.aboutme-studies-slider-text{
 								height: 400px;
 								width: 40%;
 							}
-
-							.aboutme-studies-slider-text div p{
-							}
-
-							.aboutme-studies-slider-text div p a{
-							}					
+				
 				}
 
 
@@ -375,19 +327,9 @@ html{
 								height: 200px;
 								width: 50%;
 							}
-
-								.aboutme-studies-slider-img img{
-								}
-
 							.aboutme-studies-slider-text{
 								height: 200px;
 								width: 50%;
-							}
-
-							.aboutme-studies-slider-text div p{
-							}
-
-							.aboutme-studies-slider-text div p a{
-							}					
+							}				
 				}
 
