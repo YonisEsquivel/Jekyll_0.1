@@ -17,3 +17,6 @@ github_username:  YonisEsquivel
 
 # Build settings
 markdown: kramdown
+
+# Ruta
+permalink: blog/:title/
