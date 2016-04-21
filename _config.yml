@@ -20,3 +20,6 @@ markdown: kramdown
 
 # Ruta
 permalink: blog/:title/
+
+gems: [jekyll-paginate]
+paginate: 5
