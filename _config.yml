@@ -18,8 +18,5 @@ github_username:  YonisEsquivel
 # Build settings
 markdown: kramdown
 
-# Ruta
+#Ruta
 permalink: blog/:title/
-
-gems: [jekyll-paginate]
-paginate: 5

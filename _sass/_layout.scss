@@ -37,7 +37,7 @@ a.site-title.test {
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 50px;
 
     .menu-icon {
         display: none;
@@ -56,12 +56,12 @@ a.site-title.test {
         }
     }
 
-    @include media-query($on-palm) {
+    @include media-query(499px) {
         position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        top: 6px;
+        right: 20px;
+        background-color: #fdfdfd;
+        border: 1px solid #e8e8e8;
         border-radius: 5px;
         text-align: right;
 
@@ -87,9 +87,10 @@ a.site-title.test {
         .trigger {
             clear: both;
             display: none;
+            margin-bottom: 0.7em;
         }
 
-        &:hover .trigger {
+        &:hover .trigger, bg-icon {
             display: block;
             padding-bottom: 5px;
         }
@@ -203,8 +204,7 @@ a.site-title.test {
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
-    margin-top: 62px;
+    padding-top: 60px;
 }
 
 .page-heading {
@@ -228,6 +228,13 @@ a.site-title.test {
 .post-link {
     display: block;
     font-size: 24px;
+    color: #2a7ae2;
+    text-decoration: none;
+}
+
+.post-link:hover{
+    text-decoration: underline;
+    color: #7B5F5F;
 }
 
 
